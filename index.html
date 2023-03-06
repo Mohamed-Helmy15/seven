@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITI Final Project</title>
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <a href="#" class="scroll"></a>
+    <!-- start header -->
+    <div class="header sticky-top">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <img src="./images/Logo.png" alt="logo" width="10%" />
+          <button
+            class="navbar-toggler mt-3 mb-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="links collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item p-2">
+                <a
+                  data-active=".home"
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item p-2">
+                <a
+                  data-active=".services"
+                  class="nav-link"
+                  aria-current="page"
+                  href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item p-2">
+                <a
+                  data-active=".portfolio"
+                  class="nav-link"
+                  aria-current="page"
+                  href="#portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item p-2">
+                <a
+                  data-active=".about"
+                  class="nav-link"
+                  aria-current="page"
+                  href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item p-2">
+                <a
+                  data-active=".news"
+                  class="nav-link"
+                  aria-current="page"
+                  href="#news"
+                  >News</a
+                >
+              </li>
+              <li class="nav-item p-2">
+                <a
+                  data-active=".contact"
+                  class="nav-link"
+                  aria-current="page"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+               <!-- dark mode -->
+              <div class="form-check form-switch ms-auto mt-3 me-3">
+                <label class="form-check-label ms-3" for="lightSwitch">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-brightness-high"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                    />
+                  </svg>
+                </label>
+                <input class="form-check-input" type="checkbox" id="lightSwitch" />
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end header -->
+    <!-- start landing -->
+    <div class="landing" id="home">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide position-relative"
+        data-bs-ride="carousel"
+      >
+        <div class="landing-txt">
+          <h6>AWESOME THEME</h6>
+          <p>WELCOME TO THE SEVEN THEME</p>
+          <div class="btn">Explore</div>
+        </div>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="6"
+            aria-label="Slide 7"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/Slider.jpg"
+              class="d-block w-100"
+              style="width: 120% !important"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="images/landing 0.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/landing 1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/landing 2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/landing 3.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/landing 4.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/landing 5.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- end landing -->
+    <!-- start services -->
+    <div class="services" id="services">
+      <div class="main">
+        <div class="container">
+          <h3 class="main-heading">DESIGN IS OUR FUEL</h3>
+          <p>
+            If a feature or product were legitimately easy the user would not be
+            writing in to support about how stuck they are. Sure, some
+            percentage of users will find questions to ask about any interface.
+            But do you want to start the conversation by assuming the user falls
+            into that percentage? You venture to learn much more if you assume
+            the software is wrong, not the user.
+          </p>
+          <div class="ser-cont row">
+            <div class="ser col">
+              <div class="all">
+                <div class="ser-txt">
+                  <h3>Design</h3>
+                  <p>Design is the silent ambassador of your brand.</p>
+                </div>
+                <i class="fa-brands fa-sketch"></i>
+              </div>
+              <div class="all">
+                <div class="ser-txt">
+                  <h3>CODING</h3>
+                  <p>
+                    If you find an element of your interface requires
+                    instructions, then you need to redesign it.
+                  </p>
+                </div>
+                <i class="fa-solid fa-code"></i>
+              </div>
+            </div>
+            <div class="ser col">
+              <img src="images/phone.png" alt="" />
+            </div>
+            <div class="ser col">
+              <div class="all">
+                <i class="fa-solid fa-camera"></i>
+                <div class="ser-txt">
+                  <h3>Photography</h3>
+                  <p>
+                    Sometimes the best way to prove your own value is to let a
+                    client play the field.
+                  </p>
+                </div>
+              </div>
+              <div class="all">
+                <i class="fa fa-cubes"></i>
+                <div class="ser-txt">
+                  <h3>Apps</h3>
+                  <p>
+                    He who cannot draw on three thousand years is living from
+                    hand to mouth.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end services -->
+    <!-- start portfolio -->
+    <div class="portfolio" id="portfolio">
+      <div class="main">
+        <div class="container">
+          <h3 class="main-heading">WHAT WE DONE SO FAR</h3>
+          <p>
+            I believe that a good user interface is carefully targeted towards
+            its audience, with the right mixture of simplicity, elegance and
+            innovation.
+          </p>
+          <div class="portfolio-cont">
+            <div class="links">
+              <ul>
+                <li class="btn active" data-link=".all">All</li>
+                <li class="btn" data-link=".mockups">Mockups</li>
+                <li class="btn" data-link=".icons">Icons</li>
+                <li class="btn" data-link=".ui">UI Kits</li>
+                <li class="btn" data-link=".templates">Templates</li>
+              </ul>
+            </div>
+            <div class="portfolio-img">
+              <div class="img all mockups" data-link="Mockups">
+                <img src="images/adena.png" alt="Mockups" />
+              </div>
+              <div class="img all icons" data-link="Icons">
+                <img src="images/atom.png" alt="Icons" />
+              </div>
+              <div class="img all ui" data-link="UI Kits">
+                <img src="images/flat.png" alt="UI Kits" />
+              </div>
+              <div class="img all templates" data-link="Templates">
+                <img src="images/ipad.jpg" alt="Templates" />
+              </div>
+              <div class="img all mockups" data-link="Mockups">
+                <img src="images/ket.jpg" alt="Mockups" />
+              </div>
+              <div class="img all icons" data-link="Icons">
+                <img src="images/mentum.png" alt="Icons" />
+              </div>
+              <div class="img all ui" data-link="UI Kits">
+                <img src="images/modern-phone.jpg" alt="UI Kits" />
+              </div>
+              <div class="img all templates" data-link="Templates">
+                <img src="images/sven.jpg" alt="Templates" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end portfolio -->
+    <!-- start about -->
+    <div class="about main" id="about">
+      <div class="container">
+        <div class="about-content col-md-5">
+          <h3>SOME WORDS ABOUT US</h3>
+          <p>
+            I don’t think that all people read in the same way. Today, entire
+            generations are growing up watching MTV and playing video games and
+            it is safe to assume that these people have a high degree of visual
+            sophistication. and are not easily discouraged by a lens
+            straightforward or ambiguous typography. On the contrary, they are
+            attracted and enticed to read something because of visual richness.
+          </p>
+          <div class="btn">Read more</div>
+        </div>
+      </div>
+    </div>
+    <!-- end about -->
+    <!-- start team -->
+    <div class="team" id="team">
+      <div class="main">
+        <div class="container">
+          <h3 class="main-heading">MEET OUR TEAM</h3>
+          <p>
+            Be regular and orderly in your life like a bourgeois, so that you
+            may be violent and original in your work.
+          </p>
+          <div class="team-content">
+            <div class="team-box">
+              <div class="img">
+                <img src="images/team-3.jpg" alt="" />
+                <div class="img-txt">
+                  <p>My eyes hurt, but my hand keeps sketching.</p>
+                  <div class="links">
+                    <a href="https://www.facebook.com"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                    <a href="https://www.twitter.com"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                    <a href="https://www.pinterest.com"
+                      ><i class="fa-brands fa-pinterest"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-txt">
+                <h4>Maria care</h4>
+                <p>FrontEnd Developer</p>
+              </div>
+            </div>
+            <div class="team-box">
+              <div class="img">
+                <img src="images/team-2.jpg" alt="" />
+                <div class="img-txt">
+                  <p>
+                    If I had more time, I would have written a shorter letter.
+                  </p>
+                  <div class="links">
+                    <a href="https://www.facebook.com"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                    <a href="https://www.twitter.com"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                    <a href="https://www.pinterest.com"
+                      ><i class="fa-brands fa-pinterest"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-txt">
+                <h4>Carla Sergio</h4>
+                <p>BackEnd Developer</p>
+              </div>
+            </div>
+            <div class="team-box">
+              <div class="img">
+                <img src="images/team-1.jpg" alt="" />
+                <div class="img-txt">
+                  <p>
+                    Decoration is just make-up for the wrinkles of the idea.
+                  </p>
+                  <div class="links">
+                    <a href="https://www.facebook.com"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                    <a href="https://www.twitter.com"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                    <a href="https://www.pinterest.com"
+                      ><i class="fa-brands fa-pinterest"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-txt">
+                <h4>Renie Tamaio</h4>
+                <p>FullStack Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end team -->
+    <!-- start news -->
+    <div class="news" id="news">
+      <div class="main">
+        <div class="container">
+          <h3 class="main-heading">OUR BLOG STORIES</h3>
+          <p>Design is where science and art break even.</p>
+          <div class="news-content">
+            <div class="news-box">
+              <div class="img">
+                <img src="images/blog-1.jpg" class="w-100" alt="" />
+              </div>
+              <div class="news-txt">
+                <h5>10+ PHOTOREALISTIC PSD BUSINESS CARD MOCKUPS</h5>
+                <p>
+                  Mockups are useful to display your won business card in style
+                  instead of the flat front and back page of the card. The depth
+                  and look of your business card is tripled with mockup as if it
+                  were real....
+                </p>
+              </div>
+              <a href="">Read more...</a>
+            </div>
+            <div class="news-box">
+              <div class="img">
+                <img src="images/blog-2.png" class="w-100" alt="" />
+              </div>
+              <div class="news-txt">
+                <h5>NEWSLETTER DESIGN</h5>
+                <p>
+                  All projects are different, but you have treat each one with
+                  care. Sometimes you get to build a luxury yacht; other times,
+                  it’ll be a rowboat. You still have to make sure the thing
+                  doesn’t spring a
+                </p>
+              </div>
+              <a href="">Read more...</a>
+            </div>
+            <div class="news-box">
+              <div class="img">
+                <img src="images/blog-3.png" class="w-100" alt="" />
+              </div>
+              <div class="news-txt">
+                <h5>NOTHING’S IMPOSSIBLE.</h5>
+                <p>
+                  In the matter of layout, forget art and use horse-sense. The
+                  printer-designer’s whole duty is to make a clear presentation
+                  of the message… This calls for an exercise of common sense...
+                </p>
+              </div>
+              <a href="">Read more...</a>
+            </div>
+          </div>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+    <!-- end news -->
+    <!-- start contact -->
+    <div class="contact" id="contact">
+      <div class="main">
+        <div class="container">
+          <h3 class="main-heading">KEEP IN TOUCH</h3>
+          <p>
+            The works must be conceived with fire in the soul, but executed with
+            clinical coolness.
+          </p>
+          <form action="">
+            <input required type="text" name="name" placeholder="Your Name">
+            <input required type="email" name="email" placeholder="Your Email">
+            <input required type="text" name="subject" placeholder="Subject">
+            <textarea name="message" id="mes" placeholder="Message" cols="30" rows="10"></textarea>
+            <input type="submit" name="Send" class="btn" id="submit">
+          </form>
+          <div class="icons">
+            <div>
+              <i class="fa-solid fa-phone"></i>
+              <p>847-939-9359</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <p>sevenmail@sevenmail.com</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-earth-africa"></i>
+              <p>4116 Oak Avenue
+                Chickago, IL 60607</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer -->
+    <footer>
+      <p>&copy; 2015 All rights reserved - Theme Designed by GraphBerry & Created by &reg; <br><b>Mohamed Helmy</b></p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-dribbble"></i>
+        <i class="fa-brands fa-behance"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-google"></i>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/switch.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
